@@ -48,13 +48,13 @@ ram.runtime = "1G"
     [resources.sources]
     [resources.sources.main]
     url = "https://github.com/discourse/discourse/archive/v3.0.0.tar.gz"
-    sha256 = "b4b9a2857515ab79b2bc71cc0bdd09f9bf749d506c095b76d86846c9adf62623"
+    sha256 = "67ad1a9e7fda0509e62065e86a4980f5b5e5390335f9fde47ad1be53443fe3f4"
 
     autoupdate.strategy = "latest_github_tag"
 
     [resources.sources.ldap-auth]
     url = "https://github.com/jonmbake/discourse-ldap-auth/archive/refs/tags/v0.6.1.tar.gz"
-    sha256 = "67ad1a9e7fda0509e62065e86a4980f5b5e5390335f9fde47ad1be53443fe3f4"
+    sha256 = "04b380ff1b7c5a7eade24f4cc86c5fbcb9ac6c61393454dcd268c1ec14a81cdf"
 
     autoupdate.strategy = "latest_github_tag"
     autoupdate.upstream = "https://github.com/jonmbake/discourse-ldap-auth"
